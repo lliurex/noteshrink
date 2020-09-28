@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
 Build-Depends: debhelper (>=10),
                dh-python,
-               python-all,
-               python-setuptools
+               python3-all,
+               python3-setuptools
 Standards-Version: 4.1.2
 Homepage: https://mzucker.github.io/2016/09/20/noteshrink.html
 Vcs-Browser: https://github.com/mzucker/noteshrink
@@ -13,7 +13,7 @@ X-Python-Version: >= 2.6
 
 Package: noteshrink
 Architecture: all
-Depends: ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}, python-numpy, python-scipy, python-pil, imagemagick, python
+Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}, python3-numpy, python3-scipy, python3-pil, imagemagick, python
 Description: Convert scans of handwritten notes to beautiful, compact PDFs
  Program to clean up scans of handwritten notes while simultaneously reducing 
  file size.
