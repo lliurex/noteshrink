@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from __future__ import print_function
 
 import os
@@ -7,8 +7,8 @@ from setuptools import setup
 
 
 if sys.argv[-1] == "publish":
-    os.system("python setup.py sdist upload")
-    os.system("python setup.py bdist_wheel upload")
+    os.system("python3 setup.py sdist upload")
+    os.system("python3 setup.py bdist_wheel upload")
     print("You probably want to also tag the version now:")
     print("  git tag -a VERSION -m 'version VERSION'")
     print("  git push --tags")

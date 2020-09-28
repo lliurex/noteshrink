@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 '''Converts sequence of images to compact PDF while removing speckles,
 bleedthrough, etc.
