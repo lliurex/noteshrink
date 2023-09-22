@@ -13,7 +13,7 @@ X-Python-Version: >= 2.6
 
 Package: noteshrink
 Architecture: all
-Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}, python3-numpy, python3-scipy, python3-pil, imagemagick, python
+Depends: ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}, python3-numpy, python3-scipy, python3-pil, imagemagick, python3
 Description: Convert scans of handwritten notes to beautiful, compact PDFs
  Program to clean up scans of handwritten notes while simultaneously reducing 
  file size.
