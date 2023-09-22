@@ -1,3 +1,9 @@
+noteshrink (0.1.1-33) jammy; urgency=medium
+
+  * Removed python as depend
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 22 Sep 2023 13:02:26 +0200
+
 noteshrink (0.1.1-23lliurex23) jammy; urgency=medium
 
   * Jammy release
